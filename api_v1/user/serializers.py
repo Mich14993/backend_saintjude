@@ -22,7 +22,7 @@ class PermissionSerializer(serializers.ModelSerializer):
         min_length=20,
         error_message={
             'required':'El campo codename es requerido',
-            'max_length':'El codename es demasiado largo',
+            'max_length':'El codename es demasiado largoss',
             'min_length':'El codename es demasiado corto'
         }
     )
