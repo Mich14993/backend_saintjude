@@ -6,5 +6,5 @@ from api_v1.user.views import PermissionListCreate, PermissionRetrieveUpdateDest
 
 urlpatterns=[
     path('permissions/',PermissionListCreate.as_view(),name='permission-list-create'),
-    path('permissions/<int:pk>/',PermissionRetrieveUpdateDestroy.as_view(), name='permission-details')
+    path('permissions/<int:pk>/',PermissionRetrieveUpdateDestroy.as_view(), name='permission-detail')
 ]
